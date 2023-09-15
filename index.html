@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thanya - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Thanya Nguyen">Thanya Nguyen</h1>
+          <p class="title">Computer Scientist</p>
+
+          <li class="contact-item">
+              <a href="https://drive.google.com/file/d/16ZJIQBdkb_lC7mbVlZP1T8l6x37_s-5v/view?usp=share_link" class="title">Resume</a>
+          </li>
+          
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:NguyenThanya@gmail.com" class="contact-link">NguyenThanya@gmail.com</a>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+6157074807" class="contact-link">+1 (615) 707-4807</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Nashville, Tennessee</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/Thanya-Nguyen/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Abdurh-man" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/ThanyaNguyen/?hl=en" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            My name is Thanya Nguyen. I am a senior majoring in Computer Science at the University of Tennessee,
+            minoring in Machine Learning and Cybersecurity. In my free time, I work in App Development. 
+            I am eager to utilize my Machine Learning background while learning new tools along the way.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Areas of Experience</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/machine.png" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Biologically Inspired Computation and Data Preprocessing 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/cyber.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cybersecurity</h4>
+
+                <p class="service-item-text">
+                  Implentation of Cryptographic Algorithms and Ethical Hacking
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/shine-iphone-with-white-screen.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/jelly-computer-monitor.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desktop apps</h4>
+
+                <p class="service-item-text">
+                  Development of applications for Linux and Windows.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+        </section>
+
+
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Interest and Hobbies</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/bonbon-financial-computer-game-1.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Video Games</h4>
+              </div>
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/taxi-barbell.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Weight Lifting</h4>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/dazzle-line-man-waters-a-garden-bed-with-plants-from-a-watering-can.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Gardening</h4>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+        </div>
+      </article>
+
+
+
+
+    
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Tennessee</h4>
+
+              <span>GPA:3.91/4.0           2019 — 2023</span>
+
+              <p class="timeline-text">
+                Bachelor of Science in Computer Science
+              </p>
+              <p class="timeline-text">
+                Minor in Cybersecurity and Machine Learning
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Consulting Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Colony Hardware</h4>
+              <span>App Developer                       Oct 2022 — Present</span>
+              <p class="timeline-text">
+                • Communicated with company representative to better understand application specifications
+              </p>
+              <p class="timeline-text">
+                • Proposed possible solutions for the contracted app which seeks to help with leadership training and staff development of a 
+                1000+ personnel company
+              </p>
+              <p class="timeline-text">
+                • Obtained approval for an app that must work on iPhone/Android and utilizes a data base, the proposed app will be developed
+                using React-Native and utilize Google Firebase
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">American Accessories International</h4>
+
+              <span>Machine Learning Intern             May 2022 — Jul 2022</span>
+              <p class="timeline-text">
+                • Developed a stand-alone app for the purpose of demoing a medical management machine at show cases
+              </p>
+              <p class="timeline-text">
+                • Proved real time software support to machines currently deployed in hospitals and machines currently in production
+              </p>
+              <p class="timeline-text">
+                • Used Microsoft Azure to connect a current product to an IOT hub for factory and software acceptance testing
+              </p>
+              <p class="timeline-text">
+                • Conducted a feasibility assessment based on customers' needs and wants for a new product, used computer vision and e-cons 
+                camera software to develop a possible solution to meet the customer's demands 
+              </p>
+
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Zhao (MABE) Lab</h4>
+
+              <span>Undergraduate Reserach Assistant   Nov 2021 — May 2022</span>
+              <p class="timeline-text">
+                • Updated the UI of the Reminisce application to make it more user friendly to late-stage Alzheimer patients
+              </p>
+              <p class="timeline-text">
+                • Designed and developed two new features that act as source of memory simulations on the humanoid social robot
+              </p>
+              <p class="timeline-text">
+                • Designed and implemented two memory trigger categories using Pepper's QiSDK API
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Other Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Notable Buddy Application</h4>
+
+              <span>Software Engineering Project Aug       2021 — Dec 2022</span>
+              <p class="timeline-text">
+                • Deployed Google Drive API where customers can upload text files to a public Drive without signing in
+              </p>
+              <p class="timeline-text">
+                • Added functionality that automatically saves user's data, such as text, position, and custom settings
+              </p>
+              <p class="timeline-text">
+                • Added functionality that Auto-corrects and Auto-completes the user's input
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Google Cloud Career Readiness Data Analyst Challenge</h4>
+
+              <span>Participant                        Jul 2020 — Aug 2020</span>
+              <p class="timeline-text">
+                • Updated the UI of the Reminisce application to make it more user friendly to late-stage Alzheimer patients
+              </p>
+              <p class="timeline-text">
+                • Designed and developed two new features that act as source of memory simulations on the humanoid social robot
+              </p>
+              <p class="timeline-text">
+                • Designed and implemented two memory trigger categories using Pepper's QiSDK API
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">C/C++</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Kotlin</h5>
+                <data value="60">60%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="50">50%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="45">45%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 45%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React Native</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Cybersecurity</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-filter-btn>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-filter-btn>Cybersecurity</button>
+              </li>
+              
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <!-- <a href="#"> -->
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Pepper-3-robot_cropped.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Humanoid Robot</h3>
+
+                <p class="project-category">Applications</p>
+
+              <!-- </a> -->
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://github.com/Abdurh-man/583/blob/main/Hash.ipynb">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sha1.PNG" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Implentation of SHA1 using NIST and Hash attack</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <!-- <a href="#"> -->
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/lhd.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Leadership Development App</h3>
+
+                <p class="project-category">Applications</p>
+
+              <!-- </a> -->
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Abdurh-man/420/tree/main/cs420_final">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/hopfiledNetwork.PNG" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finger Print Reconstrucion Using Hopfiled network</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/utk-cs/sack">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/notable.PNG" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Notable Buddy Application</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://github.com/Abdurh-man/583/blob/main/AES.ipynb">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/aes.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Implentation of AES using NIST</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Abdurh-man/425">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ufc.PNG" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UFC Prediction</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://github.com/Abdurh-man/583/blob/main/MAC.ipynb">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mac.PNG" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Message Authentication Code(MAC) attack</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Abdurh-man/420/tree/main/cs420_lab4">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/lunarlanderpost-2.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Neuroevolution with OPENAI Gym</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://github.com/Abdurh-man/583">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/block.PNG" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Naive Implentation of BlockChain</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <!-- <a href="#"> -->
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/kiosk.PNG" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Kiosk</h3>
+
+                <p class="project-category">Applications</p>
+
+              <!-- </a> -->
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <!-- <a href="#"> -->
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/buffer.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Buffer Overflow Attack</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              <!-- </a> -->
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Abdurh-man/425/tree/main/lab5">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mlpclassifer.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Multi-layer Perceptron</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <!-- <a href="#"> -->
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sql.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SQL Injection</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              <!-- </a> -->
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <!-- <a href="#"> -->
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/xss-attack.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cross Site Scripting (XSS)</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              <!-- </a> -->
+            </li>
+
+
+
+
+            
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Abdurh-man/420/tree/main/cs420_lab1">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ca.PNG" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Celluar Automata</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <!-- <a href="#"> -->
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/csrp.PNG" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cross-Site Request Forgery (CSRF)</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              <!-- </a> -->
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Abdurh-man/420/tree/main/cs420_lab2">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/genetic_algorithm.PNG" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Genetic Algorithm</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <!-- <a href="#"> -->
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dns-lookup-diagram.webp" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Implentation of a simple recursive DNS resolver</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              <!-- </a> -->
+            </li>
+
+            
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <!-- <a href="#"> -->
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gauge.PNG" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">InterGauge</h3>
+
+                <p class="project-category">Applications</p>
+
+              <!-- </a> -->
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <!-- <a href="#"> -->
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tls.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Implentation of TLS client</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              <!-- </a> -->
+            </li>
+
+
+
+
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <!-- <a href="#"> -->
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/shelf.PNG" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Shelf</h3>
+
+                <p class="project-category">Applications</p>
+
+              <!-- </a> -->
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <!-- <a href="#"> -->
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/salary_prediticon.PNG" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Salary Prediction</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              <!-- </a> -->
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Abdurh-man/425/tree/main/lab%201">
+
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/decision_trees.PNG" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Decision Trees</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+
+            
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://github.com/Abdurh-man/583/blob/main/SRP.ipynb">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/srp.PNG" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Implentation of Secure Remote Passwored (SRP) Protcol</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Abdurh-man/420/tree/main/cs420_lab5">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/particle_swarm_optimization.jpeg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Particle Swarm Optimization</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <!-- <a href="#"> -->
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/john_the_ripper_bg.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Password Cracking</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              <!-- </a> -->
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
